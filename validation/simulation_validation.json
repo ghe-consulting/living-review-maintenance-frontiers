@@ -1,0 +1,64 @@
+{
+  "execution_date": "2026-09-06",
+  "primary_lhs_n": 32768,
+  "replicate_lhs_n": 32768,
+  "primary_coverage": {
+    "living": 18161,
+    "scheduled": 14607,
+    "tie": 0,
+    "living_fraction": 0.554229736328125,
+    "scheduled_fraction": 0.445770263671875,
+    "tie_fraction": 0.0
+  },
+  "replicate_coverage": {
+    "living": 17967,
+    "scheduled": 14801,
+    "tie": 0,
+    "living_fraction": 0.548309326171875,
+    "scheduled_fraction": 0.451690673828125,
+    "tie_fraction": 0.0
+  },
+  "coverage_fraction_abs_difference": 0.00592041015625,
+  "coverage_replication_pass": true,
+  "surface_resolution": [
+    {
+      "fixed_b": 0.0,
+      "finite_shared_frontier_points": 172,
+      "max_abs_d_frontier_difference": 0.00012106125738936546,
+      "fraction_of_d_axis_span": 1.2106125738936547e-05,
+      "pass": true
+    },
+    {
+      "fixed_b": 0.05,
+      "finite_shared_frontier_points": 206,
+      "max_abs_d_frontier_difference": 0.0001182325779837401,
+      "fraction_of_d_axis_span": 1.182325779837401e-05,
+      "pass": true
+    },
+    {
+      "fixed_b": 0.15,
+      "finite_shared_frontier_points": 257,
+      "max_abs_d_frontier_difference": 0.00011672980716143089,
+      "fraction_of_d_axis_span": 1.1672980716143089e-05,
+      "pass": true
+    },
+    {
+      "fixed_b": 0.3,
+      "finite_shared_frontier_points": 257,
+      "max_abs_d_frontier_difference": 0.00011967288018543965,
+      "fraction_of_d_axis_span": 1.1967288018543964e-05,
+      "pass": true
+    }
+  ],
+  "surface_resolution_pass": true,
+  "approximation": {
+    "square_root_is_lower_everywhere": true,
+    "max_interval_relative_underestimate": 0.8469140061439139,
+    "max_normalized_cost_regret": 0.17150746195097633
+  },
+  "structural_rows": {
+    "weibull_common": 40960,
+    "weibull_boundary_scaled": 40960
+  },
+  "architecture_count": 3
+}

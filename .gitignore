@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.Rhistory
+.RData
+/tests/r_grid.csv
+/tests/python_grid.csv
+/tests/r_grid_reproduced.csv
+/tests/python_grid_reproduced.csv
+/environment/R_sessionInfo.txt
+/environment/reproduction_environment.json

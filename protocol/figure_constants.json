@@ -1,0 +1,48 @@
+{
+  "purpose": "Resolve plot-specific constants before simulation outputs were evaluated.",
+  "figure_2_policy_frontier": {
+    "fixed_non_timeliness_b": [
+      0.0,
+      0.05,
+      0.15,
+      0.3
+    ],
+    "rho_domain": [
+      0.0001,
+      0.999
+    ],
+    "d_plot_domain": [
+      0.0,
+      10.0
+    ]
+  },
+  "figure_3_portfolio_frontier": {
+    "d": 0.1,
+    "eta": 0.05,
+    "delta_c": 0.0,
+    "attributable_shared_ratio_alpha_times_omega": [
+      0.05,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "rho_domain": [
+      0.0001,
+      0.999
+    ]
+  },
+  "figure_5_structural_reference": {
+    "architecture_id": "ARCH_B",
+    "hazard_common_rho_domain": [
+      0.0001,
+      0.85
+    ],
+    "release_overhead_psi": [
+      0.0,
+      0.0025,
+      0.01,
+      0.04
+    ]
+  },
+  "selection_rule": "Constants were chosen for mathematical span and readability before simulation execution; none may be replaced after viewing outputs except by a versioned protocol change."
+}

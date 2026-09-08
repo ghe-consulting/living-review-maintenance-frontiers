@@ -1,0 +1,13 @@
+input,meaning,units,provenance_class,frozen_values_or_domain,reason
+rho,reset/topic ratio S*mu/Q,dimensionless,synthetic mathematical design,logit-LHS 1e-4 to 0.999 plus explicit boundary points,Finite-optimum base boundary at rho=1 motivates dense endpoint coverage
+d,living conclusion-refresh cadence mu*delta,dimensionless,synthetic mathematical design,log10-LHS 1e-4 to 10 plus explicit boundary points,Covers near-zero to strongly stale refresh intervals
+n,portfolio size,reviews,synthetic mathematical design,round(2^(8u)); 1 to 256,Scale-neutral coverage of sharing without empirical programme counts
+alpha,causal attributable share of shared operating burden,dimensionless,parameter definition,uniform 0 to 1 plus boundary grid,Full admissible domain by definition
+omega_F_over_Q,shared operating burden relative to full-staleness consequence rate,dimensionless,synthetic mathematical design,log10-LHS 1e-3 to 10 plus omega=0 boundary,Four-order scale coverage; not a cost estimate
+eta,review-specific readiness burden f/Q,dimensionless,synthetic mathematical design,uniform 0 to 0.5,Broad nonnegative decision-relevant range
+delta_c,living minus scheduled processing burden / Q,dimensionless,synthetic symmetric design,uniform -0.5 to +0.5,Symmetric automation/processing advantage so neither strategy privileged
+k,Weibull hazard shape,dimensionless,structural mathematical sensitivity,0.5;0.75;1;1.5;2,"Decreasing, memoryless and increasing material-change hazards"
+psi,cadence-dependent living release burden R_L*mu/Q,dimensionless,synthetic structural sensitivity,0;0.0025;0.01;0.04,Separates fixed per-release overhead from readiness/throughput terms
+mu,material conclusion-change intensity,1/year,synthetic interpretive mapping only,0.10;0.25;0.50;1.00;2.00,Calendar back-transformation only; no empirical claim
+Q,full-staleness consequence rate,arbitrary burden units/year,normalization,Q=1 in dimensional mapping,Scale normalization only
+architectures,three abstract workflow architectures,mixed dimensionless inputs,independently synthetic rule-based illustration,ARCH_A/B/C frozen in R6_SYNTHETIC_ARCHITECTURES.json,Secondary interpretation only; evaluated over full rho grid

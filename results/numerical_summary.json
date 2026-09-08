@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "analysis_date": "2026-09-06",
+  "primary_coverage": {
+    "living": 18161,
+    "scheduled": 14607,
+    "tie": 0,
+    "living_fraction": 0.554229736328125,
+    "scheduled_fraction": 0.445770263671875,
+    "tie_fraction": 0.0
+  },
+  "replicate_coverage": {
+    "living": 17967,
+    "scheduled": 14801,
+    "tie": 0,
+    "living_fraction": 0.548309326171875,
+    "scheduled_fraction": 0.451690673828125,
+    "tie_fraction": 0.0
+  },
+  "coverage_difference": 0.00592041015625,
+  "approximation_thresholds": [
+    {
+      "interval_relative_error_threshold": 0.01,
+      "rho_first_exceedance": 0.00044662063326338206,
+      "x_exact_at_threshold": 0.030189032485436806
+    },
+    {
+      "interval_relative_error_threshold": 0.05,
+      "rho_first_exceedance": 0.01082537749378445,
+      "x_exact_at_threshold": 0.15488626865837096
+    },
+    {
+      "interval_relative_error_threshold": 0.1,
+      "rho_first_exceedance": 0.04158068122327039,
+      "x_exact_at_threshold": 0.32041902050195703
+    },
+    {
+      "interval_relative_error_threshold": 0.25,
+      "rho_first_exceedance": 0.22674591745405823,
+      "x_exact_at_threshold": 0.8978906985281219
+    }
+  ],
+  "architectures": [
+    {
+      "id": "ARCH_A",
+      "label": "small_isolated_manual",
+      "n": 2,
+      "alpha": 0.9,
+      "omega_F_over_Q": 0.3,
+      "eta": 0.1,
+      "delta_c": 0.1,
+      "d": 0.3,
+      "construction_rule": "low portfolio scale + high attributable share + manual-processing disadvantage + slower living conclusion refresh",
+      "phi": 0.135,
+      "non_scheduled_burden_c": 0.47106073560572614,
+      "rho_BE": 0.13418901577838122
+    },
+    {
+      "id": "ARCH_B",
+      "label": "shared_balanced",
+      "n": 24,
+      "alpha": 0.5,
+      "omega_F_over_Q": 1.0,
+      "eta": 0.05,
+      "delta_c": 0.0,
+      "d": 0.1,
+      "construction_rule": "intermediate portfolio scale, attribution, readiness burden and cadence with processing symmetry",
+      "phi": 0.020833333333333332,
+      "non_scheduled_burden_c": 0.11920751369292906,
+      "rho_BE": 0.007405683605534855
+    },
+    {
+      "id": "ARCH_C",
+      "label": "large_automation_assisted",
+      "n": 128,
+      "alpha": 0.2,
+      "omega_F_over_Q": 3.0,
+      "eta": 0.02,
+      "delta_c": -0.1,
+      "d": 0.03,
+      "construction_rule": "large shared portfolio + low attributable fraction + automation-favoured processing + short conclusion-refresh interval",
+      "phi": 0.004687500000000001,
+      "non_scheduled_burden_c": -0.060461381716394036,
+      "rho_BE": 0.0
+    }
+  ],
+  "structural_sensitivity_table": "results/tables/Table3_structural_sensitivity.csv",
+  "results_are_design_space_not_empirical_probability": true
+}

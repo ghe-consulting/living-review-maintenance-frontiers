@@ -1,0 +1,27 @@
+symbol,name,units,domain,base_role,operational_definition
+K_S(T),scheduled burden,objective units/time,T>0,objective,Long-run burden of episodic scheduled updating
+K_L,living burden,objective units/time,"n>=1, delta>0, 0<=alpha<=1",objective,Long-run burden of living maintenance
+S,scheduled reset burden,objective units/update,S>=0,scheduled cost,Fixed reactivation/restart/version/release overhead per scheduled update
+F,shared living infrastructure operating burden,objective units/time,F>=0,living cost,Recurring shared platform operating burden; not sunk establishment cost
+alpha,attributable shared-cost fraction,dimensionless,0<=alpha<=1,living cost,Causal/avoidable fraction of F attributable to current living-maintenance decision
+n,portfolio size,reviews,integer >=1,living cost,Reviews sharing attributable F under equal-share base allocation
+f,review-specific readiness burden,objective units/time,f>=0,living cost,Recurring readiness cost independent of eligible-evidence volume
+C_S,scheduled throughput burden,objective units/time,>=0,scheduled cost,Expected evidence-volume processing burden under scheduled batching
+C_L,living throughput burden,objective units/time,>=0,living cost,Expected evidence-volume processing burden under living workflow
+mu,material conclusion-change intensity,1/time,>0,staleness,Exponential hazard of first material decision-relevant conclusion change
+D,decision frequency,decisions/time,>=0,consequence,Expected downstream decision opportunities per unit time
+H,stale-decision consequence,objective units/decision,>=0,consequence,Expected consequence conditional on stale conclusion at a decision opportunity
+Q,full-staleness consequence rate,objective units/time,Q=DH>0,scale,Q=DH
+T,scheduled update interval,time,>0,decision variable,Time between completed scheduled updates
+delta,living conclusion-refresh interval,time,>0,living policy,Time between completed decision-relevant living conclusion refreshes
+x,dimensionless scheduled interval,dimensionless,x=mu*T,scaled variable,x=mu T
+d,dimensionless living cadence,dimensionless,d=mu*delta,scaled living policy,d=mu delta
+rho,reset/topic ratio,dimensionless,rho=S*mu/Q,scheduled tradeoff,Reset burden scaled by material-change intensity and full-staleness consequence rate
+phi,shared living burden,dimensionless,phi=alpha*F/(nQ),living tradeoff,Per-review attributable shared operating burden scaled by Q
+eta,readiness burden,dimensionless,eta=f/Q,living tradeoff,Review-specific readiness burden scaled by Q
+Delta c,processing difference,dimensionless,(C_L-C_S)/Q,strategy difference,Living minus scheduled throughput burden scaled by Q
+g(z),average stale fraction,dimensionless,0<=g<1,staleness,Average probability stale over a dimensionless refresh interval under exponential change
+h(x),inspection characteristic,dimensionless,0<h<1,FOC,1-(1+x)e^-x
+m(rho),optimized scheduled variable burden,dimensionless,0<m<1 for 0<rho<1,minimum,1-e^-x*(rho)
+r(x),general survival function,dimensionless,0<=r<=1,robustness,Survival of time to material conclusion change on dimensionless time scale
+k,Weibull shape,dimensionless,k>0,robustness,k<1 decreasing hazard; k=1 exponential; k>1 increasing hazard

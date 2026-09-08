@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "execution_date": "2026-09-06",
+  "implementations": {
+    "primary": "R/base-R implementation",
+    "independent_verification": "Python/SciPy implementation written separately",
+    "copied_computational_functions_between_languages": false
+  },
+  "tolerances": {
+    "absolute": 2e-09,
+    "scaled_relative": 2e-09,
+    "status": "LOCKED_BEFORE_CROSS_LANGUAGE_EXECUTION"
+  },
+  "comparison": {
+    "status": "PASS",
+    "n_rows": 606,
+    "alignment": "sort_by_rho",
+    "rho_match_tolerance": 1e-14,
+    "absolute_tolerance": 2e-09,
+    "relative_scaled_tolerance": 2e-09,
+    "max_abs": {
+      "rho": 4.996003610813204e-16,
+      "x_star": 7.549516567451064e-15,
+      "x_root": 6.927791673660977e-14,
+      "min_variable": 7.53043460921532e-15,
+      "foc_residual": 3.3306690738754706e-16
+    },
+    "max_scaled_relative": {
+      "rho": 4.996003610813204e-16,
+      "x_star": 7.549516567451064e-15,
+      "x_root": 2.375877272697835e-14,
+      "min_variable": 7.53043460921532e-15,
+      "foc_residual": 3.3306690738754706e-16
+    }
+  },
+  "clean_environment": {
+    "r": {
+      "status": "PASS",
+      "version": "4.3.3",
+      "implementation": "base R"
+    },
+    "python": {
+      "status": "PASS",
+      "version": "3.13.5",
+      "unit_test_count": 8,
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    }
+  }
+}

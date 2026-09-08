@@ -1,0 +1,40 @@
+{
+  "validation_date": "2026-09-06",
+  "independent_checks": {
+    "base_model_random_rows_checked": 500,
+    "base_max_abs_differences": {
+      "x_star": 1.0835776720341528e-13,
+      "m_rho": 1.3360840211973368e-14,
+      "living_advantage": 1.3322676295501878e-14,
+      "n_BE": 2.4101609596982598e-11,
+      "rho_BE": 7.771561172376096e-16
+    },
+    "base_policy_classification_mismatches": 0,
+    "weibull_random_rows_per_shape": 100,
+    "weibull_shapes_checked": [
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "weibull_max_abs_living_advantage_difference": 2.220446049250313e-16,
+    "weibull_policy_classification_mismatches": 0
+  },
+  "structural_interpretation": {
+    "weibull_common_rho_max_switch_fraction": 0.0498046875,
+    "weibull_common_rho_living_coverage_range": [
+      0.3763427734375,
+      0.4263916015625
+    ],
+    "release_overhead_max_switch_fraction": 0.2872314453125,
+    "automation_max_switch_fraction": 0.28564453125,
+    "adjudication": "The direction of a universal strategy claim would be structurally unstable and is therefore prohibited. The primary scientific claim is conditional: exact decision and break-even frontiers identify when each strategy dominates. Prespecified release-overhead and automation scenarios materially move those frontiers, which is a model result/limitation rather than a failure of the conditional method."
+  },
+  "data_integrity": {
+    "primary_lhs_nan_count": 0,
+    "boundary_design_nan_count": 0,
+    "infinite_frontiers_interpreted_as_structural_states": true,
+    "posthoc_architecture_tuning": false
+  }
+}

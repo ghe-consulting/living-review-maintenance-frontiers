@@ -1,0 +1,2 @@
+Base R >= 4.3; no contributed R packages are required for the primary R implementation.
+The archived cross-language validation used R 4.3.3.

@@ -1,0 +1,15 @@
+{
+  "prespecified_before_simulation": "2026-09-06",
+  "rng_policy": {
+    "generator": "NumPy Generator PCG64 via SciPy qmc where applicable",
+    "seed_source": "cryptographic system entropy generated before simulation outputs were computed"
+  },
+  "seeds": {
+    "master": 2927391856,
+    "primary_lhs": 1954342947,
+    "weibull_lhs": 3219601130,
+    "automation_pairs": 158235846,
+    "resolution_check": 980462730
+  },
+  "archived_release_rule": "These seeds are fixed for version 1.0.0."
+}

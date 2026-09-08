@@ -1,0 +1,4 @@
+id,label,n,alpha,omega_F_over_Q,eta,delta_c,d,construction_rule,phi,non_scheduled_burden_c,rho_BE
+ARCH_A,small_isolated_manual,2,0.9,0.3,0.1,0.1,0.3,low portfolio scale + high attributable share + manual-processing disadvantage + slower living conclusion refresh,0.135,0.47106073560572614,0.13418901577838122
+ARCH_B,shared_balanced,24,0.5,1.0,0.05,0.0,0.1,"intermediate portfolio scale, attribution, readiness burden and cadence with processing symmetry",0.020833333333333332,0.11920751369292906,0.007405683605534855
+ARCH_C,large_automation_assisted,128,0.2,3.0,0.02,-0.1,0.03,large shared portfolio + low attributable fraction + automation-favoured processing + short conclusion-refresh interval,0.004687500000000001,-0.060461381716394036,0.0

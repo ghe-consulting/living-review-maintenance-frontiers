@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its synthetic outputs, please cite the archived release."
+title: "When should a systematic review remain living? Decision frontiers for maintenance under shared synthesis infrastructure"
+type: software
+version: 1.0.0
+date-released: 2026-09-08
+authors:
+  - family-names: Babigumira
+    given-names: Joseph B.
+    orcid: "https://orcid.org/0000-0003-3834-7141"
+    affiliation: "Global Health Economics (GHE) Consulting, Kampala, Uganda"
+    email: "babijo@ghe-insights.com"
+repository-code: "https://github.com/ghe-consulting/living-review-maintenance-frontiers"
+license: MIT
+abstract: >-
+  Reproducibility software, synthetic design data, exact model implementations,
+  validation tests, simulations, and display outputs for a methodological study
+  of living versus optimally scheduled systematic-review maintenance under
+  shared synthesis infrastructure.
+keywords:
+  - systematic reviews
+  - living systematic reviews
+  - evidence synthesis
+  - decision analysis
+  - maintenance optimization
+  - reproducibility
