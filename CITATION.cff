@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software or its synthetic outputs, please cite the archived release."
 title: "When should a systematic review remain living? Decision frontiers for maintenance under shared synthesis infrastructure"
 type: software
-version: 1.0.0
-date-released: 2026-09-08
+version: 1.0.1
+date-released: 2026-09-11
 authors:
   - family-names: Babigumira
     given-names: Joseph B.

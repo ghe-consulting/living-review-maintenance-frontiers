@@ -57,11 +57,10 @@ python model/verify_symbolic.py
 ## Reproduce the full synthetic analysis
 
 ```bash
-python analysis/run_analysis.py
-python scripts/verify_frozen_results.py
+python scripts/verify_reproduction.py
 ```
 
-The analysis regenerates the synthetic source data, tables, figures, numerical summary, and simulation-validation report from the prespecified protocol and seeds. The Latin-hypercube living/scheduled fractions are design-space coverage summaries, not real-world probabilities or prevalence estimates.
+The verifier regenerates the analysis in an isolated temporary copy and compares structured numerical outputs at the same `2e-9` absolute/scale-aware tolerance used for the independent R/Python check. This avoids treating machine-level floating-point serialization differences as scientific failures while retaining exact checksums for the archived frozen files. Figures must regenerate successfully and be non-empty; their source data are compared numerically. The Latin-hypercube living/scheduled fractions are design-space coverage summaries, not real-world probabilities or prevalence estimates.
 
 ## Verify the distributed release
 
@@ -71,7 +70,7 @@ python scripts/verify_release.py
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The Zenodo DOI for the `v1.0.0` release should be used as the persistent citation once minted.
+Citation metadata are provided in `CITATION.cff`. The Zenodo DOI for the current archived release should be used as the persistent citation once minted.
 
 ## Licensing
 
