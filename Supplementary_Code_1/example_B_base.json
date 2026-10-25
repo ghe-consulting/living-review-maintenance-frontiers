@@ -1,0 +1,23 @@
+{
+  "input_kind": "SYNTHETIC: dimensional rescaling of frozen configuration B, not measured programme inputs",
+  "units": {
+    "time": "year",
+    "burden": "arbitrary common burden unit",
+    "decision_rate": "decision opportunities/year",
+    "loss_per_stale_decision": "burden/decision"
+  },
+  "parameters": {
+    "mu": 0.5,
+    "scheduled_reset": 0.02,
+    "shared_rate": 1.0,
+    "attributable_fraction": 0.5,
+    "portfolio_size": 24,
+    "readiness_rate": 0.05,
+    "processing_scheduled": 0.2,
+    "processing_living": 0.2,
+    "decision_rate": 1.0,
+    "loss_per_stale_decision": 1.0,
+    "living_interval": 0.2,
+    "living_release": 0.0
+  }
+}

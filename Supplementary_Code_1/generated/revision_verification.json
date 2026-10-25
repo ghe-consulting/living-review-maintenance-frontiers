@@ -1,0 +1,74 @@
+{
+  "architecture_reconciliation": {
+    "max_absolute_difference": 5.551115123125783e-17,
+    "tolerance": 2e-12,
+    "pass": true
+  },
+  "worked_example": [
+    {
+      "id": "A",
+      "n": 2,
+      "phi": 0.135,
+      "eta": 0.1,
+      "dc": 0.1,
+      "staleness": 0.13606073560572618,
+      "total_incremental": 0.4710607356057262,
+      "rho_be": 0.13418901577838122,
+      "m_at_rho_001": 0.13804717763674304,
+      "advantage_at_rho_001": -0.33301355796898313,
+      "margin_B_at_rho_001": -0.19801355796898315,
+      "n_be_at_rho_001": null
+    },
+    {
+      "id": "B",
+      "n": 24,
+      "phi": 0.020833333333333332,
+      "eta": 0.05,
+      "dc": 0.0,
+      "staleness": 0.04837418035959573,
+      "total_incremental": 0.11920751369292906,
+      "rho_be": 0.007405683605534855,
+      "m_at_rho_001": 0.13804717763674304,
+      "advantage_at_rho_001": 0.018839663943813978,
+      "margin_B_at_rho_001": 0.03967299727714731,
+      "n_be_at_rho_001": 12.60303063333239
+    },
+    {
+      "id": "C",
+      "n": 128,
+      "phi": 0.004687500000000001,
+      "eta": 0.02,
+      "dc": -0.1,
+      "staleness": 0.014851118283605969,
+      "total_incremental": -0.060461381716394036,
+      "rho_be": 0.0,
+      "m_at_rho_001": 0.13804717763674304,
+      "advantage_at_rho_001": 0.19850855935313708,
+      "margin_B_at_rho_001": 0.20319605935313706,
+      "n_be_at_rho_001": 2.9528131692615767
+    }
+  ],
+  "worked_example_status": "Revision-stage calculation at a previously prespecified boundary value; not a new simulation.",
+  "scheduled_and_release_corollary_checks": {
+    "q_values": 239,
+    "method": "Brent root versus separate bounded minimisation on log interval",
+    "maximum_minimum_value_difference": 1.5543122344752192e-15,
+    "maximum_first_order_residual": 1.4432899320127035e-15,
+    "maximum_minimum_identity_residual": 1.4432899320127035e-15,
+    "tolerance": 2e-09,
+    "pass": true,
+    "status": "New revision-stage numerical check; does not assert re-execution of archived R validation."
+  },
+  "executable_context": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "R_executed": false
+  },
+  "original_scientific_results_changed": false,
+  "original_repository_release": "v1.0.1",
+  "display_parameters_source": "protocol/figure_constants.json, blob dd5a007fce93e4221ed0675683a9abb4861c1b45",
+  "architecture_source": "results/numerical_summary.json, blob 07f790c4fe0456b52173f0c4b67c32daf3c05b5e",
+  "display_changes": "Figures reordered, individual panels separated, unbounded cadence curves not flattened at plot limit, portfolio surface shown as curves at frozen shared-burden constants."
+}

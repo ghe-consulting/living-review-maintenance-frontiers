@@ -1,14 +1,17 @@
-# When should a systematic review remain living?
+# When should a systematic review remain living? Balancing resources, timeliness and shared infrastructure
 
-## Decision frontiers for maintenance under shared synthesis infrastructure
+Reproducibility materials for the methodological study by 
+**Joseph B. Babigumira** (Global Health Economics (GHE) Consulting, Kampala, Uganda; ORCID: https://orcid.org/0000-0003-3834-7141) and 
+**Rogers Nsubuga** (Infectious Diseases Institute, Makerere University, Kampala, Uganda; ORCID: https://orcid.org/0000-0002-2674-7052).
 
-Reproducibility materials for the methodological study by **Joseph B. Babigumira**, Global Health Economics (GHE) Consulting, Kampala, Uganda.
-
-- ORCID: https://orcid.org/0000-0003-3834-7141
 - Correspondence: babijo@ghe-insights.com
 - Repository: https://github.com/ghe-consulting/living-review-maintenance-frontiers
 
 This repository contains the materials needed to reproduce and verify the mathematical and synthetic computational analysis.
+
+## Revision (v1.1.0)
+
+The original simulation results and historical validation reports from v1.0.1 are preserved unchanged. This revision adds the `Supplementary_Code_1/` folder, containing explanatory calculations, displays, a dimensional-input calculator and additional checks. The files `R13_explanatory_checks.json`, `r16_calculator_checks.json` and `revision_verification.json` in `Supplementary_Code_1/generated/` are outputs of the newly executed checks and are distinct from the original validation reports in `validation/`.
 
 ## Repository structure
 
@@ -20,6 +23,7 @@ This repository contains the materials needed to reproduce and verify the mathem
 - `validation/` — cross-language, independent numerical, and simulation-validation summaries.
 - `environment/` — software/runtime requirements and environment-capture utilities.
 - `checksums/` — integrity manifests for the frozen results and distributed release.
+- `Supplementary_Code_1/` — revision addendum: explanatory workflows, display reconstruction scripts, the dimensional-input calculator, its tests, and generated figures and checks.
 
 ## Software
 

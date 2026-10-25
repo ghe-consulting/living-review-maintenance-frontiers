@@ -1,0 +1,55 @@
+{
+  "model": "exponential stationary operating model; same resource/consequence scale",
+  "units": {
+    "time": "year",
+    "burden": "arbitrary common burden unit",
+    "decision_rate": "decision opportunities/year",
+    "loss_per_stale_decision": "burden/decision"
+  },
+  "input_kind": "SYNTHETIC: configuration B rescaling with psi=0.0025 from the existing release-overhead design; optimization is the post-protocol corollary",
+  "unit_of_decision": "equal_sharing_comparable_portfolio",
+  "normalized": {
+    "Q": 1.0,
+    "rho": 0.01,
+    "d": 0.1,
+    "phi": 0.020833333333333332,
+    "eta": 0.05,
+    "delta_c": 0.0,
+    "psi": 0.0025
+  },
+  "scheduled": {
+    "status": "finite_optimum",
+    "interval": 0.14855474025326587,
+    "minimum": 0.13804717763674304,
+    "calendar_interval": 0.29710948050653174,
+    "total_burden_infimum_rate": 0.3380471776367431
+  },
+  "fixed_living": {
+    "total_burden_rate": 0.34420751369292907,
+    "incremental_normalized_burden": 0.14420751369292906,
+    "available_infrastructure_margin": 0.014672997277147309,
+    "normalized_advantage": -0.0061603360561860165,
+    "comparison": "scheduled_lower_burden"
+  },
+  "optimized_living": {
+    "status": "finite_optimum",
+    "interval": 0.07243343268970318,
+    "minimum": 0.06987233930386459,
+    "calendar_interval": 0.14486686537940635,
+    "total_burden_infimum_rate": 0.3407056726371979,
+    "normalized_advantage": -0.002658495000454869,
+    "comparison": "scheduled_lower_burden"
+  },
+  "fixed_interval_portfolio_frontier": {
+    "applicable": true,
+    "continuous": 34.076200694096286,
+    "minimum_integer": 35
+  },
+  "cautions": [
+    "No empirical default, budget feasibility or quality validation is implied.",
+    "Count economic opportunity costs, not only changed cash spending; avoid duplicate costs and overlapping portfolio consequences.",
+    "Complete freshness at release, stationary inputs and a common loss scale are model assumptions.",
+    "A boundary infimum is not a recommended implementable update policy.",
+    "Scenario grids describe checked points only, not continuous-range robustness or probabilities."
+  ]
+}

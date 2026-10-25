@@ -1,15 +1,19 @@
 cff-version: 1.2.0
 message: "If you use this software or its synthetic outputs, please cite the archived release."
-title: "When should a systematic review remain living? Decision frontiers for maintenance under shared synthesis infrastructure"
+title: "When should a systematic review remain living? Balancing resources, timeliness and shared infrastructure"
 type: software
-version: 1.0.1
-date-released: 2026-09-11
+version: 1.1.0
+date-released: 2026-10-25
 authors:
   - family-names: Babigumira
     given-names: Joseph B.
-    orcid: "https://orcid.org/0000-0003-3834-7141"
-    affiliation: "Global Health Economics (GHE) Consulting, Kampala, Uganda"
     email: "babijo@ghe-insights.com"
+    affiliation: "Global Health Economics (GHE) Consulting, Kampala, Uganda"
+    orcid: "https://orcid.org/0000-0003-3834-7141"
+  - family-names: Nsubuga
+    given-names: Rogers
+    affiliation: "Infectious Diseases Institute, Makerere University, Kampala, Uganda"
+    orcid: "https://orcid.org/0000-0002-2674-7052"
 repository-code: "https://github.com/ghe-consulting/living-review-maintenance-frontiers"
 license: MIT
 abstract: >-

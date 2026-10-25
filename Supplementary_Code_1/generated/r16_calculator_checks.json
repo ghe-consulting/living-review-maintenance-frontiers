@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checked_on": "2026-10-25",
+  "scope": "Fresh Python checks of a dimensional implementation and existing results; no new R execution, no rerun of original primary/structural simulations and no empirical validation.",
+  "tolerance": 2e-09,
+  "configuration_total_max_abs_error": 1.6653345369377348e-16,
+  "configuration_B_reported_value_max_abs_error": 1.0658141036401503e-14,
+  "root_and_optimization_grid_size": 299,
+  "maximum_first_order_residual": 2.220446049250313e-16,
+  "maximum_objective_identity_error": 2.220446049250313e-16,
+  "maximum_separate_numerical_minimization_error": 2.1120258320017626e-16,
+  "integration_grid_size": 301,
+  "maximum_staleness_quadrature_error": 2.220446049250313e-16,
+  "currency_normalization_error": 0.0,
+  "time_unit_normalization_error": 0.0,
+  "integer_threshold_12_versus_13": "PASS",
+  "single_review_zero_actual_increment": "PASS",
+  "same_release_and_reset_cost_with_and_without_processing_saving": "PASS",
+  "unattained_boundary_handling": "PASS",
+  "invalid_input_tests": 10,
+  "dimensional_H_scenarios": [
+    {
+      "H": 0.5,
+      "rho": 0.02,
+      "phi": 0.041666666666666664,
+      "eta": 0.1,
+      "advantage": 0.003174983933421832
+    },
+    {
+      "H": 1.0,
+      "rho": 0.01,
+      "phi": 0.020833333333333332,
+      "eta": 0.05,
+      "advantage": 0.018839663943813978
+    },
+    {
+      "H": 2.0,
+      "rho": 0.005,
+      "phi": 0.010416666666666666,
+      "eta": 0.025,
+      "advantage": 0.014528213151982827
+    }
+  ],
+  "scenario_scope": "Finite checked points only; not a proof over a continuous range.",
+  "environment": {
+    "Python": "3.13.5",
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0"
+  }
+}

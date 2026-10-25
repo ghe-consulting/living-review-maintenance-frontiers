@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "date": "2026-10-24",
+  "scope": "Explanatory presentation checks only; no primary or structural simulation rerun and no R execution.",
+  "worked_examples": [
+    {
+      "configuration": "A",
+      "n": 2,
+      "rho": 0.01,
+      "readiness": 0.1,
+      "processing_difference": 0.1,
+      "staleness": 0.13606073560572618,
+      "non_shared_subtotal": 0.3360607356057262,
+      "infrastructure_margin": -0.19801355796898315,
+      "shared_charge": 0.135,
+      "total_incremental_living_burden": 0.4710607356057262,
+      "optimized_scheduled_burden": 0.13804717763674304,
+      "living_advantage": -0.33301355796898313,
+      "continuous_portfolio_threshold": null,
+      "minimum_integer_portfolio": null,
+      "archived_total": 0.47106073560572614,
+      "difference_from_archived": 5.551115123125783e-17
+    },
+    {
+      "configuration": "B",
+      "n": 24,
+      "rho": 0.01,
+      "readiness": 0.05,
+      "processing_difference": 0.0,
+      "staleness": 0.04837418035959573,
+      "non_shared_subtotal": 0.09837418035959573,
+      "infrastructure_margin": 0.03967299727714731,
+      "shared_charge": 0.020833333333333332,
+      "total_incremental_living_burden": 0.11920751369292906,
+      "optimized_scheduled_burden": 0.13804717763674304,
+      "living_advantage": 0.018839663943813978,
+      "continuous_portfolio_threshold": 12.60303063333239,
+      "minimum_integer_portfolio": 13,
+      "archived_total": 0.11920751369292906,
+      "difference_from_archived": 0.0
+    },
+    {
+      "configuration": "C",
+      "n": 128,
+      "rho": 0.01,
+      "readiness": 0.02,
+      "processing_difference": -0.1,
+      "staleness": 0.014851118283605969,
+      "non_shared_subtotal": -0.06514888171639403,
+      "infrastructure_margin": 0.20319605935313706,
+      "shared_charge": 0.004687500000000001,
+      "total_incremental_living_burden": -0.060461381716394036,
+      "optimized_scheduled_burden": 0.13804717763674304,
+      "living_advantage": 0.19850855935313708,
+      "continuous_portfolio_threshold": 2.9528131692615767,
+      "minimum_integer_portfolio": 3,
+      "archived_total": -0.060461381716394036,
+      "difference_from_archived": 0.0
+    }
+  ],
+  "calendar_mapping": {
+    "mu_per_year": 0.5,
+    "mean_material_change_years": 2.0,
+    "living_B_months": 2.4000000000000004,
+    "scheduled_months": 3.565313766078381,
+    "source": "mu=0.5 is an existing synthetic interpretive mapping, not an empirical input."
+  },
+  "maximum_archived_configuration_difference": 5.551115123125783e-17,
+  "stale_probability_quadrature": {
+    "intervals": 301,
+    "max_absolute_difference": 2.220446049250313e-16,
+    "tolerance": 2e-09
+  },
+  "dimensional_identity": {
+    "max_absolute_difference": 1.6653345369377348e-16,
+    "tolerance": 2e-09
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

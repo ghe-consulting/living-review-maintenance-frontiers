@@ -1,0 +1,55 @@
+{
+  "model": "exponential stationary operating model; same resource/consequence scale",
+  "units": {
+    "time": "year",
+    "burden": "arbitrary common burden unit",
+    "decision_rate": "decision opportunities/year",
+    "loss_per_stale_decision": "burden/decision"
+  },
+  "input_kind": "SYNTHETIC: dimensional rescaling of frozen configuration B, not measured programme inputs",
+  "unit_of_decision": "equal_sharing_comparable_portfolio",
+  "normalized": {
+    "Q": 1.0,
+    "rho": 0.01,
+    "d": 0.1,
+    "phi": 0.020833333333333332,
+    "eta": 0.05,
+    "delta_c": 0.0,
+    "psi": 0.0
+  },
+  "scheduled": {
+    "status": "finite_optimum",
+    "interval": 0.14855474025326587,
+    "minimum": 0.13804717763674304,
+    "calendar_interval": 0.29710948050653174,
+    "total_burden_infimum_rate": 0.3380471776367431
+  },
+  "fixed_living": {
+    "total_burden_rate": 0.3192075136929291,
+    "incremental_normalized_burden": 0.11920751369292906,
+    "available_infrastructure_margin": 0.03967299727714731,
+    "normalized_advantage": 0.018839663943813978,
+    "comparison": "living_lower_burden"
+  },
+  "optimized_living": {
+    "status": "unattained_zero_interval_limit",
+    "interval": null,
+    "minimum": 0.0,
+    "calendar_interval": null,
+    "total_burden_infimum_rate": 0.27083333333333337,
+    "normalized_advantage": 0.06721384430340971,
+    "comparison": "one_or_both_optima_unattained_compare_infima_only"
+  },
+  "fixed_interval_portfolio_frontier": {
+    "applicable": true,
+    "continuous": 12.60303063333239,
+    "minimum_integer": 13
+  },
+  "cautions": [
+    "No empirical default, budget feasibility or quality validation is implied.",
+    "Count economic opportunity costs, not only changed cash spending; avoid duplicate costs and overlapping portfolio consequences.",
+    "Complete freshness at release, stationary inputs and a common loss scale are model assumptions.",
+    "A boundary infimum is not a recommended implementable update policy.",
+    "Scenario grids describe checked points only, not continuous-range robustness or probabilities."
+  ]
+}
